@@ -1,2 +1,2 @@
 #!/bin/bash
-sort | uniq -u
+ls -lt | awk 'NR <= 11 {print $9}'
