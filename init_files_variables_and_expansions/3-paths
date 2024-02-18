@@ -1,3 +1,2 @@
 #!/bin/bash
 echo "/bin:/home:/usr:/home/me" | tr ':' '\n' | wc -l
-
